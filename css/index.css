@@ -1,0 +1,162 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 550768 */
+    src: url('//at.alicdn.com/t/font_550768_1lvovtf2e2fenrk9.eot');
+    src: url('//at.alicdn.com/t/font_550768_1lvovtf2e2fenrk9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_550768_1lvovtf2e2fenrk9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_550768_1lvovtf2e2fenrk9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_550768_1lvovtf2e2fenrk9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+}
+input:focus { outline: none; }
+body{
+    background: #E1E1E1;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: auto;
+    background: red;
+}
+.banner{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.banner li{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+
+}
+.logo{
+    width: 148px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 75px;
+    background: url("../img/base_icon.png") no-repeat;
+}
+.search{
+    width: 240px;
+    height: 34px;
+    position: absolute;
+    right: 75px;
+    top: 32px;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #fff;
+}
+.search input{
+    width: 200px;
+    height: 34px;
+    float: left;
+    border: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.search a{
+    display: block;
+    width: 40px;
+    height: 100%;
+    float: left;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+}
+.search a i{
+    font-size: 18px;
+    color: #ccc;
+}
+/*头部结束*/
+/*分类开始*/
+nav{
+    width: 100%;
+    height: 140px;
+    background: #fff;
+    margin-top: 500px;
+}
+nav li{
+    height: 44px;
+    width: 128px;
+    margin-top: 48px;
+    float: left;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a i{
+    background: url("../img/base_icon.png");
+
+}
+
+/*分类结束*/
+
+/*内容区开始*/
+section{
+    width: 100%;
+    height: auto;
+    background: #ccc;
+}
+section li{
+    background: #fff;
+    height: auto;
+    padding: 0;
+}
+section li a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    text-decoration: none;
+}
+section li a img{
+    width: 100%;
+    height: 252px;
+}
+
+/*内容区结束*/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 349px;
+    background: #ccc;
+    padding-top: 50px;
+}
+footer li{
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+}
+footer li:last-child{
+    text-align: center;
+}
+/*底部结束*/
+
+
+/*768px-992px*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+}
+
+/*992px-1200px*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+/*>1200px*/
+@media screen and (min-width: 1200px){
+
+}
